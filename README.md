@@ -4,7 +4,7 @@
 
 A conversational AI agent that handles guest research, outreach drafting, scheduling, logistics, host briefs, and CRM on behalf of a senior talent booker at a major national sports show. She talks to it in plain English; it does the work; she approves anything that touches a real person.
 
-The interesting part isn't the product — it's how it was built. Designed across three review passes (one self-review, two adversarial reviews by a different model), pivoted mid-spec when Anthropic shipped a new primitive that made half the custom infrastructure obsolete, built with Claude Code.
+The interesting part isn't the product — it's how it was built. Designed across three review passes (one self-review, two adversarial reviews using GPT-5.5 Thinking to catch blind spots), pivoted mid-spec when Anthropic shipped a new primitive that made 60–70% of the custom infrastructure obsolete, built with Claude Code.
 
 **Status:** Spec complete, build in progress. Demo imminent.
 
